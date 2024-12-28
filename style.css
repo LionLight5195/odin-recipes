@@ -1,0 +1,31 @@
+* {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.heading {
+    text-align: center;
+}
+
+#description-heading {
+    background-color: aqua;
+}
+
+.description {
+    color: hsl(240, 100%, 50%);
+}
+
+#ingredients-heading {
+    background-color: rgb(255, 0, 0);
+}
+
+.ingredients {
+    color: rgb(168, 54, 73);
+}
+
+#steps-heading {
+    background-color: green;
+}
+
+.steps {
+    color: rgb(20, 200, 10);
+}
