@@ -2,8 +2,30 @@
     font-family: 'Courier New', Courier, monospace;
 }
 
+body {
+    background-color: #F3E5AB;
+}
+
+#recipes {
+    font-size: 32px;
+    display: inline-block;
+    background-color: #FF7F50;
+    margin: 8px 8px;
+    padding: 4px;
+}
+
+.heading#index-page,
 .heading {
     text-align: center;
+}
+
+#index-page {
+    font-size: 64px;
+}
+
+.result-image {
+    display: block;
+    margin: 0 auto;
 }
 
 #description-heading {
@@ -28,4 +50,17 @@
 
 .steps {
     color: rgb(20, 200, 10);
+}
+
+#description-heading,
+#ingredients-heading,
+#steps-heading {
+    padding: 4px;
+}
+
+.description,
+.ingredients,
+.steps {
+    width: 640px;
+    margin-right: 0 auto;
 }
